@@ -5,11 +5,14 @@ date: "03/02/2021"
 output: 
   html_document:
     toc: yes
+    toc_depth: 3
   word_document:
     toc: yes
+    toc_depth: 3
   pdf_document:
     number_sections: yes
     toc: yes
+    toc_depth: 3
 editor_options: 
   chunk_output_type: console
 ---
@@ -670,7 +673,7 @@ table(add.data$patch, add.data$Injection, add.data$singe)
 
 ```
 
-##Descriptions of sessions
+## Descriptions of sessions
 
 Here we answer a few general questions on the sessions, choices, repeats etc..
 
@@ -881,7 +884,7 @@ grid.arrange(g1,g2, ncol=2)
 
 
 
-##Trial types:
+## Trial types:
 
 First let's look at the frequency of repeats, miss, etc...
 
@@ -969,7 +972,7 @@ Just a slight effect of DCZ on Miss trials, for Oscar, when considering all tria
 
 
 
-###distance to repeat
+### distance to repeat
 
 ```{r dist2rep, echo=FALSE,message=FALSE, warning=FALSE,fig.width=9, fig.height=5}
 
@@ -1032,7 +1035,7 @@ Regarding distances between a choice and a repeat, DCZ effects are absent in VIO
 
 
 
-##2D choices
+## 2D choices
 
 
 ```{r spatial2DCZ, echo=FALSE,message=FALSE, warning=FALSE,fig.width=12, fig.height=5}
@@ -1280,7 +1283,7 @@ Here we have :
 - VIOLET : no
 
 
-##Post-error reaction vs Reward
+## Post-error reaction vs Reward
 
 Test whether the choices made after no rewards (e.g. next distance of choice: close or far). We hypothesize that in the blue condition (the animal doesn't see rewards) the distance after negative outcomes (for a repeat) is larger than after a correct rewarded response, because when rewarded the animal will stay 'in the patch' i.e. close to where he got the reward.
 
