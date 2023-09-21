@@ -67,7 +67,7 @@ session_type <- read.table(paste0(path,"session_type50_norad.txt"), header=TRUE)
 ```
 
 
-# Introduction
+#   Introduction
 
 **A behavioral study of foraging**
 
